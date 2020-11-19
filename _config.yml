@@ -1,4 +1,4 @@
-title: Urban Template
+title: Spitbit Labs 
 url: "https://teal-worm.cloudvent.net"
 baseurl:
 google_analytics_key:
@@ -10,9 +10,9 @@ description: Jekyll template with example content for a web agency.
 
 # Author details for the jekyll-seo-tag gem
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: Spitbit Labs
+  email: hey@spitbitlabs.com
+  twitter: spitbitlabs
 
 # Social details for the jekyll-seo-tag gem
 social:
