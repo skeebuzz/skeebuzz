@@ -1,12 +1,12 @@
 title: Spitbit Labs 
-url: "https://teal-worm.cloudvent.net"
+url: "https://spitbitlabs.com"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
 
 # Default description in social shares for the jekyll-seo-tag gem
-description: Jekyll template with example content for a web agency.
+description: Spitbit Labs. We like to build stuff.
 
 # Author details for the jekyll-seo-tag gem
 author:
@@ -16,7 +16,7 @@ author:
 
 # Social details for the jekyll-seo-tag gem
 social:
-  name: Urban Template
+  name: Spitbit Labs 
   links:
     - https://github.com/CloudCannon/urban-jekyll-template
 
