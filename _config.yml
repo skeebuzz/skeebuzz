@@ -1,0 +1,44 @@
+baseurl: ''
+exclude: ['README.md']
+permalink: pretty
+title: 'Spitbit Labs'
+
+google_analytics_id: ""
+homepage:
+  show_call_box: false
+logo:
+  mobile: "images/logo/logo-mobile.svg"
+  desktop: "images/logo/sb-logo-no-tagline-black-ink.svg"
+  desktop_height: "64px"
+footer:
+  copyright_text: 'Copyright 2021'
+
+seo:
+  meta_og_title: "Spitbit Labs"
+  meta_og_type: "website"
+  meta_og_url: "https://spitbitlabs.com"
+  meta_og_image: "https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/screenshots/tn.png"
+  meta_og_description: "Spitbit Labs is a collective group of technologists that come together to work on various projects. We like to build stuff."
+  meta_twitter_card: "summary"
+  meta_twitter_site: "@spitbitlabs"
+  meta_twitter_creator: "@spitbitlabs"
+
+collections:
+  services:
+    output: true
+  projects:
+    output: true
+  team:
+    output: true
+  members:
+    output: true
+
+sass:
+  indentWidth: 4
+  style: compact # possible values: nested expanded compact compressed
+  precision: 10
+
+plugins:
+  - jekyll-environment-variables
+  - jekyll-sitemap
+#  - jekyll-seo-tag

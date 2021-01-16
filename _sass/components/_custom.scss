@@ -1,0 +1,36 @@
+.list-padded {
+  ul,
+  ol {
+    margin: 0;
+    padding: 0;
+    line-height: 26px;
+    color: $steel;
+    font-family: $font-family-base;
+    li {
+      width: 60%;
+      margin-bottom: 12px;
+      list-style-position: inside;
+    }
+  }
+}
+
+.color-primary {
+  color: $primary;
+  h1 {
+    color: $primary;
+  }
+}
+
+.color-primary-opp {
+  color: $primary-opp;
+  h1 {
+    color: $primary-opp;
+  }
+}
+
+.sub-heading {
+  @extend .color-primary;
+  font-size: 42px;
+  margin-bottom: 16px;
+}
+

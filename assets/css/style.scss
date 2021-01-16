@@ -1,0 +1,78 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+---
+
+// Colors
+$primary: #fa5e25;
+$secondary: #fac925;
+$black: #2f2f41;
+$white: #ffffff;
+$white-offset: lighten(#25C1FA, 40%);
+$steel: #5C5A5A;
+
+$primary-opp: #05A1DA;
+
+// Links
+$link-color: $primary;
+$link-decoration: none;
+$link-hover-color: lighten($primary, 10%);
+$link-hover-decoration: underline;
+
+// Fonts
+$font-family-base: Helvetica, Arial, sans-serif, -apple-system;
+$font-family-heading: Rubik, sans-serif, -apple-system;
+
+// Footer
+$footer-background-color: lighten($primary, 5%);
+$footer-text-color: $white;
+//$sub-footer-background-color: darken($primary, 10%);
+$sub-footer-background-color: $black;
+$sub-footer-text-color: $white;
+
+// Bootstrap
+@import 'bootstrap-variables';
+@import 'bootstrap/bootstrap-reboot';
+@import 'bootstrap/bootstrap-grid';
+// @import 'bootstrap/bootstrap'; // Uncomment this line to import the entire Bootstrap library
+
+
+// Libraries
+@import 'libraries/hamburgers/hamburgers';
+
+// Components
+@import 'components/type';
+@import 'components/page';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/sub-footer';
+@import 'components/logo';
+@import 'components/main-menu';
+@import 'components/main-menu-mobile';
+@import 'components/hamburger';
+@import 'components/buttons';
+@import 'components/call';
+@import 'components/title';
+@import 'components/content';
+@import 'components/intro';
+@import 'components/intro-image';
+@import 'components/strip';
+@import 'components/feature';
+@import 'components/social';
+
+// simon
+@import 'components/custom';
+
+// Pages
+@import 'pages/home';
+@import 'pages/team/team-summary';
+@import 'pages/services/page-services-single';
+
+body {
+  font-size: 16px;
+  line-height: 1.2;
+  font-family: $font-family-base;
+  @include media-breakpoint-up(md) {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+}
