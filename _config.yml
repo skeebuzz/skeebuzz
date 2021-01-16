@@ -1,4 +1,4 @@
-baseurl: ''
+baseurl: '/skeebuzz'
 exclude: ['README.md']
 permalink: pretty
 title: 'Spitbit Labs'
