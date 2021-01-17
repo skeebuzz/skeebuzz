@@ -41,6 +41,9 @@ bodyClass: page-team-list
           {% if member.instagram %}
           <a target="_blank" href="https://www.instagram.com/{{ member.instagram }}"><img src="/images/social/instagram-black.png" title="Instagram" alt="Instagram" /></a>
           {% endif %}
+          {% if member.behance %}
+          <a target="_blank" href="https://www.behance.net/{{ member.behance }}"><img src="/images/social/behance-black.svg" title="Behance" alt="Behance" /></a>
+          {% endif %}
         </div>
         <div class="team-content">{{ member.content }}</div>
       </div>
